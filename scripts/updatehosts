@@ -1,4 +1,8 @@
 #!/bin/sh
+#
+# First, you have to create a repository to store hostnamelist.
+# The name of repository, is "hostnamelist2_1" by default.
+#
 git_user_name=$1
 git_password=$2
 NETWORKDEVICE=${3:-eth0}
